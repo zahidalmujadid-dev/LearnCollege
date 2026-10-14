@@ -37,5 +37,5 @@ def main():
         else:
             print("Pilihan tidak valid, coba lagi.")
 
-if __name__ == "__main__":
-    main()
+
+main()
