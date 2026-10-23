@@ -18,6 +18,6 @@ int main(){
 using namespace std;
 
 int main(){
-	string a=["celeng", "aku", "3", "4", "5"]
-	cout<<a[1]
+	int a= [3, 4];
+	cout<<a[1];
 }
