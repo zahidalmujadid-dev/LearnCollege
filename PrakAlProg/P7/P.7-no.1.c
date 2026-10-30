@@ -31,13 +31,13 @@ int main() {
     jam.detik = A.detik + B.detik;
 
     if (jam.detik >= 60) {
-        jam.menit += 1;
-        jam.detik -= 60; 
+        jam.menit += jam.detik / 60;
+        jam.detik %= 60;
     }
 
     if (jam.menit >= 60) {
-        jam.jam += 1;
-        jam.menit -=60;
+        jam.jam += jam.menit / 60;
+        jam.menit %= 60;
     }
 
     printf("Hasil Penjumlahan Jam: %d:%d:%d \n", jam.jam, jam.menit, jam.detik);
