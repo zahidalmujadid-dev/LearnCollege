@@ -7,8 +7,10 @@ int totalKonsumsi=0, whichDay=0, tertinggi=0;
 
 
 int main(){
+	cout << "Masukkan konsumsi selama 7 hari:\n";
+	
 	for (int i = 0; i < minggu; i++) {
-		cout << "Masukkan konsumsi selama 7 hari:\n";
+		cout << "Masukkan konsumsi hari ke-" << i + 1 << ": ";
 		cin >> konsumsiListrik[i];
 		totalKonsumsi += konsumsiListrik[i];
 	}
