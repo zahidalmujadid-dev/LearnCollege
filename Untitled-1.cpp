@@ -30,6 +30,6 @@ int main(){
 using namespace std;
 
 int main(){
-    uniform_int_distribution<> descr(1, 100);
+    uniform_int_distribution <> descr(1, 100);
     cout << descr(gen);
 }
